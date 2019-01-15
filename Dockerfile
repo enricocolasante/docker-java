@@ -1,4 +1,4 @@
-FROM maven:3-jdk-10
+FROM maven:3-jdk-11
 
 RUN apt-get update
 RUN apt-get install apt-transport-https software-properties-common curl ca-certificates -y
